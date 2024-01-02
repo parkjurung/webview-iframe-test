@@ -44,6 +44,7 @@
 		DF4E59642B3D4B620089B0EB /* simple-webviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "simple-webviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF4E59682B3D4B620089B0EB /* simple_webviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simple_webviewUITests.swift; sourceTree = "<group>"; };
 		DF4E596A2B3D4B620089B0EB /* simple_webviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simple_webviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DF4E59772B3D5B5C0089B0EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 		DF4E594C2B3D4B610089B0EB /* simple-webview */ = {
 			isa = PBXGroup;
 			children = (
+				DF4E59772B3D5B5C0089B0EB /* Info.plist */,
 				DF4E594D2B3D4B610089B0EB /* simple_webviewApp.swift */,
 				DF4E594F2B3D4B610089B0EB /* ContentView.swift */,
 				DF4E59512B3D4B620089B0EB /* Assets.xcassets */,
@@ -425,6 +427,10 @@
 				DEVELOPMENT_TEAM = 9H2SNY3HBF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "simple-webview/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs camera";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Local network";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app needs microphone";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +460,10 @@
 				DEVELOPMENT_TEAM = 9H2SNY3HBF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "simple-webview/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs camera";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Local network";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app needs microphone";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
